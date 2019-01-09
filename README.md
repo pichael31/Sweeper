@@ -10,7 +10,7 @@ To run, just have the minesweeper game up on the screen with the entire thing vi
 
 This program can go as far as grouping 2 blank spaces together, where one is a bomb, and use this knowledge to figure out other adjacent tiles.
 
-Some issues I encountered: my computer had some issues matching a tile to an image, so I had to use the color inside a tile to figure out what number it was.  This means that it is slightly slower, and cannot use flags to signal bombs (the red would conflict with 3s).  I also used a list of lists (of lists) to create the matrix to represent the board; I think using pandas or a dictionary would be simpler and faster.
+Some issues I encountered: my computer had some issues matching a tile to an image, so I had to use the color inside a tile to figure out what number it was.  This means that it is slightly slower, and cannot use flags to signal bombs (the red would conflict with 3s).  One issue that comes with this is it is not able to figure out what an 8 is, although because this is extremely uncommon with <100 bombs, this shouldn't be an issue.  I also used a list of lists (of lists) to create the matrix to represent the board; I think using pandas or a dictionary would be simpler and faster.
 
 This older version of MS does not guarantee a 0 on the first click, so the win rate is somewhat low.  If you want to see it work well, I would recommend setting the bombs to 60-70, so it won't need to guess as much.
 
