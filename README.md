@@ -13,3 +13,5 @@ This program can go as far as grouping 2 blank spaces together, where one is a b
 Some issues I encountered: my computer had some issues matching a tile to an image, so I had to use the color inside a tile to figure out what number it was.  This means that it is slightly slower, and cannot use flags to signal bombs (the red would conflict with 3s).  I also used a list of lists (of lists) to create the matrix to represent the board; I think using pandas or a dictionary would be simpler and faster.
 
 This older version of MS does not guarantee a 0 on the first click, so the win rate is somewhat low.  If you want to see it work well, I would recommend setting the bombs to 60-70, so it won't need to guess as much.
+
+If you're able to guess a 0 and it doesn't have to guess later, it'll take about two minutes to run.
