@@ -1,5 +1,5 @@
 # Sweeper
-Python program that solves minesweeper puzzles from old school MS.
+Unique python program that solves minesweeper puzzles from old school MS.
 
 This is the link I used to download MS: http://www.minesweeper.info/downloads/WinmineXP.html.
 
