@@ -1,8 +1,9 @@
 # Sweeper
 Python program that solves minesweeper puzzles from old school MS
 
-Requires PyAutoGui, random, and Image packages
-Change the source to wherever you download the image files
+This program requires PyAutoGui, random, and Image packages.
+Change the source to wherever you download the image files.
+To run, just have the minesweeper game up on the screen with the entire thing visible.  Don't try to move it while the program is running.  This program also takes control of your mouse, so you won't be able to use it while it is running.  Trying to click and help the program may confuse it, and is not advised.
 
 This program can go as far as grouping 2 blank spaces together, where one is a bomb, and use this knowledge to figure out other adjacent tiles.
 
