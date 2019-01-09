@@ -1,5 +1,7 @@
 # Sweeper
-Python program that solves minesweeper puzzles from old school MS
+Python program that solves minesweeper puzzles from old school MS.
+
+This is the link I used to download MS: http://www.minesweeper.info/downloads/WinmineXP.html.
 
 This program requires PyAutoGui, random, and Image packages.
 Change the source to wherever you download the image files.
