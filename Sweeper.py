@@ -208,3 +208,6 @@ while fin==False:
     if pyautogui.locateOnScreen(lose_im, region=smile_find) != None:
         fin = True
         print("You Lose!")
+
+        
+#QED
