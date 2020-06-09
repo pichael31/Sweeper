@@ -1,4 +1,7 @@
 # Sweeper
+
+EXCLAIMER: This is pretty bad code I wrote before I knew what I was doing.  But its still kinda cool, so im gonna leave it here.
+
 Unique python program that solves minesweeper puzzles from old school MS.
 
 This is the link I used to download MS: http://www.minesweeper.info/downloads/WinmineXP.html.
